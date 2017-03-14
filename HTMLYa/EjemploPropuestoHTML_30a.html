@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo Propuesto 30</title>
+</head>
+<body>
+<!--
+Problema: Confeccione un formulario que solicite el ingreso de un mail, una clave y luego muestre una serie de titulos de peliculas con su respectivo checkbox. Disponer tambien del boton de tipo submit para el envio de datos al servidor.
+-->
+<form action="registrardatos.php" method="post">
+	Ingrese su mail:
+	<input type="text" name="correo" size="30"><br>
+	Ingrese su clave:
+	<input type="password" name="clave" size="15"><br>
+	<em>Seleccione las peliculas a pedir:</em>
+	<br>
+	<input type="checkbox" name="pelicula1">Logan<br>
+	<input type="checkbox" name="pelicula2">Guardianes de la galaxia 2<br>
+	<input type="checkbox" name="pelicula3">Transformers 5<br>
+	<input type="checkbox" name="pelicula4">La liga de la justicia<br>
+	<input type="submit" value="Enviar">
+</form>
+</body>
+</html>

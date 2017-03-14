@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problema Propuesto 29</title>
+</head>
+<body>
+<!--
+Problema: Confeccionar un formulario que permita ingresar el nombre de una persona, sum mail, su dni (documento nacional de indentidad) y finalmente su curriculum (este ultimo dato hacerlo utilizando un textarea).
+-->
+<form action="registrardatos.php" method="post">
+	Ingrese su nombre:
+	<input type="text" name="nombre" size="20"><br>
+	Ingrese su mail:
+	<input type="text" name="correo" size="45"><br>
+	Ingrese su dni:
+	<input type="text" name="dni" size="10"><br>
+	Ingrese su curriculum:<br>
+	<textarea name="curriculum" rows="7" cols="80"></textarea>
+	<br>
+	<input type="submit" value="Enviar">
+</form>
+</body>
+</html>
