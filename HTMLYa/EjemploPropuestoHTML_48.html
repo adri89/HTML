@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo Propuesto HTML 48</title>
+</head>
+<!--
+Problema: Confeccionar una pagina que contenga dos frames verticales. En el frame de la izquierda disponer hipervivulos a periodicos de su pais. Cuando de presione el hiperviculo actualizar el frame de la derecha con la pagina principal de ese periodico (tener en cuanta que los frames pueden mostrar paginas que se encuentran en distintos servidores).
+-->
+<frameset cols="20%, 80%">
+	<frame src="EjemploPropuestoHTML_48b.html"></frame>
+	<frame src="http://www.lostiempos.com/" name="ventanadinamica"></frame>
+	<noframes>
+		<p>El navegador no soporta frames</p>
+	</noframes>
+</frameset>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo Propuesto HTML 34</title>
+</head>
+<body>
+<!--
+Problema: Confeccionar un control de tipo select con los nombres de paises de America y Europa. Agrupe los paises por continete.
+-->
+<form action="resgitrardatos.php" method="post">
+	Seleccione un pais:
+	<select name="pais">
+		<optgroup label="America">
+			<option value="1">Estados Unidos</option>
+			<option value="2">Canada</option>
+			<option value="3">Mexico</option>
+			<option value="4">Cuba</option>
+			<option value="5">Republica Dominicana</option>
+			<option value="6">Argentina</option>
+			<option value="7">Bolivia</option>
+			<option value="8">Brazil</option>
+			<option value="9">Chile</option>
+		</optgroup>
+		<optgroup label="Europa">
+			<option value="10">Espa&ntilde;a</option>
+			<option value="11">Francia</option>
+			<option value="12">Italia</option>
+			<option value="13">Suiza</option>
+			<option value="14">Alemania</option>
+			<option value="15">Holanda</option>
+			<option value="16">Polonia</option>
+			<option value="17">Grecia</option>
+		</optgroup>
+	</select>
+	<br>
+	<input type="submit" value="Enviar">
+</form>
+</body>
+</html>

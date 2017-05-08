@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problema Propuesto HTML 33</title>
+</head>
+<body>
+<!--
+Problema: Confeccionar un formulario que muestre en un control select una serie de mail. Luego permitir que el visitante seleccione uno o varios mail del cuadro de seleccion.
+-->
+<form action="resgitrardatos.php" method="post">
+	Seleccione uno o varios mail (Presione Ctrl para seleccionar varios mail)<br>
+	<select name="mail[]" size="4" multiple>
+		<option value="1">adriac989@gmail.com</option>
+		<option value="2">adriac989@outlook.com</option>
+		<option value="3">adirac989@yahoo.com</option>
+		<option value="4">adriac989@hotmail.com</option>
+		<option value="5">adrianoayco@gmail.com</option>
+		<option value="6">adrianoayco@outlook.com</option>
+	</select>
+	<br>
+	<input type="submit" value="Enviar">
+</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo Propuesto HTML 44</title>
+</head>
+<body>
+<!--
+Problema: Crear un control de tipo text, password y textarea. Disponerlos todos de solo lectura.
+-->
+<form action="registrardatos.php" method="post">
+	Ingrese su nombre:
+	<input type="text" name="nombre" size="30" value="Adriano Ayala" readonly><br>
+	Ingrese su clave:
+	<input type="password" name="clave" size="8" value="acb12345@" readonly><br>
+	Comentarios:<br>
+	<textarea name="comentario" rows="5" cols="60">Ingrese aquí su comentario ...............................</textarea>
+	<br>
+	<input type="submit" value="Enviar">
+	<input type="reset" value="Borrar">
+</form>
+</body>
+</html>

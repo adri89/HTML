@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>43. Ejemplo Propuesto HTML 43</title>
+</head>
+<body>
+<!--
+Problema: Confeccionar un formulario que solicite el ingreso del nombre y apellido de una persona (hasta 40 caracteres), su edad (3 caracteres como maximo) y su documento nacional de indentidad (hasta 8 caracteres).
+-->
+<form action="registrardatos.php" method="post">
+	Ingrese su nombre y apellido:
+	<input type="text" name="nombre" maxlength="40" size="20"><br>
+	Ingrese su edad:
+	<input type="text" name="edad" maxlength="3" size="3"><br>
+	Ingrese su dni:
+	<input type="text" name="dni" maxlength="8" size="8">
+	<br>
+	<input type="submit" value="Enviar">
+</form>
+</body>
+</html>
